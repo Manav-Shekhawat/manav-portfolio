@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Singh Shekhawat - Portfolio</title>
+    <meta name="description" content="Portfolio of Manav Singh Shekhawat, CS Student | ML & Full-Stack Developer | Problem Solver">
+    
+    <!-- Google Fonts: Space Grotesk & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Canvas Background for Hero Section -->
+    <canvas id="network-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">M.S.S.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-in-section">
+            <div class="hero-content hero-content-row">
+                <div class="hero-text-content">
+                    <a href="https://stress-less-sense.base44.app/" target="_blank" class="currently-building-badge">
+                        <span class="pulse-dot"></span> Currently Building 🔨 StressGuard
+                    </a>
+
+                    <h1 class="hero-name">Manav Singh <span>Shekhawat</span></h1>
+                    <h2 class="hero-title">CS Student | ML & Full-Stack Developer | Problem Solver</h2>
+                    <p class="hero-tagline">"I build things that think — from stress-detecting AI to activity-recognizing models."</p>
+                    
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+
+                <div class="hero-profile-side">
+                    <div class="profile-container">
+                        <img src="assets/profile.jpg" alt="Manav Singh Shekhawat" class="profile-photo" id="profile-img">
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="3">0</h3><span>+</span>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="3">0</h3><span>+</span>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="8.5">0</h3>
+                            <p>CGPA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about fade-in-section section-padding">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content glass-card">
+                    <p>
+                        Manav Singh Shekhawat is a B.Tech CSE student at Lovely Professional University (CGPA: 8.5) from Jaipur, Rajasthan. He builds at the intersection of Machine Learning and Full-Stack Development — whether that's classifying human activity from raw sensor data or designing AI systems that detect stress before it escalates. 
+                    </p>
+                    <p>
+                        Currently working on <strong>StressGuard</strong>, a wearable-free mental health platform that uses behavioral signal analysis and LLMs to make preventive mental health support more accessible. He believes the best code doesn't just run — it solves something real.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills fade-in-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                
+                <div class="skills-grid">
+                    <!-- Highlighted ML Category -->
+                    <div class="skill-category highlight-category glass-card">
+                        <h3>Machine Learning & Data Science</h3>
+                        <div class="skill-badges">
+                            <span>Python</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span>
+                            <span>Scikit-learn</span><span>XGBoost</span><span>Supervised Learning</span>
+                            <span>Classification</span><span>Regression</span><span>Data Preprocessing</span>
+                            <span>Feature Engineering</span><span>PCA</span><span>Behavioral Signal Processing</span>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="skill-category glass-card">
+                        <h3>Language & CS Fundamentals</h3>
+                        <div class="skill-badges">
+                            <span>C++</span><span>Java</span><span>C</span><span>Python</span>
+                            <span>Data Structures</span><span>Algorithms</span><span>OOP</span>
+                            <span>Multithreading</span><span>Concurrency</span><span>Exception Handling</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3>Web Development & Backend</h3>
+                        <div class="skill-badges">
+                            <span>FastAPI</span><span>REST API</span><span>HTML5</span><span>CSS</span>
+                            <span>JavaScript</span><span>React.js</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3>Tools, Platforms & GUI</h3>
+                        <div class="skill-badges">
+                            <span>MySQL</span><span>Git</span><span>GitHub</span><span>JavaGUI</span>
+                            <span>Eclipse IDE</span><span>Jupyter Notebook</span><span>Java Swing</span>
+                            <span>AWT</span><span>Event-Driven Programming</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-badges">
+                            <span>Problem-Solving</span><span>Team Work</span><span>Analytical</span>
+                            <span>Adaptability</span><span>Quick Learner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects fade-in-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                
+                <div class="projects-grid">
+                    <!-- StressGuard Project -->
+                    <a href="https://stress-less-sense.base44.app/" target="_blank" class="project-card glass-card priority-project">
+                        <div class="project-content">
+                            <span class="project-status">Ongoing (Nov 2025 – Present)</span>
+                            <h3>StressGuard — Wearable-Free Stress Detection & Mental Health Platform</h3>
+                            <p>A data-driven, wearable-free stress risk detection web app that analyzes multimodal behavioral signals. Uses ML models to compute a real-time Stress Risk Index and delivers personalized coping strategies via an LLM-powered assistant.</p>
+                            <div class="tech-stack">
+                                <span>React.js</span><span>Python (FastAPI)</span><span>Machine Learning</span><span>LLM AI</span><span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <span class="btn-text">Live Platform ↗</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Human Activity Recognition Project -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <span class="project-status">March 2025</span>
+                            <h3>Human Activity Recognition using Supervised Machine Learning</h3>
+                            <p>A machine learning model that classifies human activities (sitting, standing, walking) using gyroscope and accelerometer sensor data. Executed complete data preprocessing and evaluated XGBoost and Linear Regression models.</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>NumPy</span><span>Scikit-learn</span><span>XGBoost</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Manav-Shekhawat/Human-Activity-Recognition" target="_blank" class="btn-text">GitHub Repo ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Unit Convertor Project -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <span class="project-status">January 2025</span>
+                            <h3>Unit Convertor Application in Java</h3>
+                            <p>A Java-based desktop application for real-time unit conversion across length, weight, temperature, and volume. Designed an intuitive GUI using Swing with clean OOP architecture and functional testing.</p>
+                            <div class="tech-stack">
+                                <span>Java</span><span>Swing</span><span>AWT</span><span>Eclipse IDE</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Manav-Shekhawat/unit-converter" target="_blank" class="btn-text">GitHub Repo ↗</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Training -->
+        <section id="certifications" class="certifications fade-in-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Training & <span>Certifications</span></h2>
+                
+                <div class="cert-category-block">
+                    <h3 class="category-heading">Machine Learning & AI</h3>
+                    <div class="cert-scroll-container">
+                        <a href="https://drive.google.com/file/d/1SJY2n21XqAFR2GSqIAji1zRw6Fw_OV77/view?usp=drivesdk" target="_blank" class="cert-card glass-card">
+                            <div class="cert-icon">🧠</div>
+                            <h4>Python for ML/AI</h4>
+                            <p class="cert-issuer">CSE Pathshala</p>
+                            <p class="cert-date">March 2024</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-category-block">
+                    <h3 class="category-heading">Development & Security</h3>
+                    <div class="cert-scroll-container">
+                        <a href="https://drive.google.com/file/d/1iajmnMTcwVu4ch4H09-HHa4uE7CfUE1n/view?usp=drivesdk" target="_blank" class="cert-card glass-card highlight-cert">
+                            <div class="cert-icon">☕</div>
+                            <div class="cert-badge">50 Hours Training</div>
+                            <h4>Java Application Development</h4>
+                            <p class="cert-issuer">Lovely Professional University (Software Dev Trainee)</p>
+                            <p class="cert-date">June - July 2025</p>
+                            <p class="cert-desc">Core Java OOP principles, Swing desktop apps, multithreading, modular code.</p>
+                        </a>
+                        
+                        <a href="https://drive.google.com/file/d/12NnunK86ERQJWY1nBXxourJKYtbSlNQS/view?usp=drivesdk" target="_blank" class="cert-card glass-card">
+                            <div class="cert-icon">🛡️</div>
+                            <h4>Capture the Flag</h4>
+                            <p class="cert-issuer">RCS</p>
+                            <p class="cert-date">January 2024</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements fade-in-section section-padding">
+            <div class="container">
+                <div class="two-column-layout">
+                    <!-- Achievements side -->
+                    <div class="achievements-wrap">
+                        <h2 class="section-title">Key <span>Achievements</span></h2>
+                        <div class="timeline">
+                            <div class="timeline-item glass-card">
+                                <h3>University Honor Roll</h3>
+                                <h4>Lovely Professional University | July 2024</h4>
+                                <p>Awarded for excellent academic performance.</p>
+                                <a href="https://drive.google.com/file/d/1mYuCD5hlQ7c7bTHyl8vIKYDmmqp1DppS/view?usp=drivesdk" target="_blank" class="btn-text">View Certificate ↗</a>
+                            </div>
+                            <div class="timeline-item glass-card">
+                                <h3>Volunteer Intern</h3>
+                                <h4>Naya Sawera NGO | June 2024</h4>
+                                <p>Contributed to the education and welfare of underprivileged children. Taught academic subjects, aided in food distribution, and closely supported children previously involved in child labour.</p>
+                                <a href="https://drive.google.com/file/d/1k5sJLAHKrtKfETgGsf2_s4ROV0DoyYCA/view?usp=drivesdk" target="_blank" class="btn-text">View Certificate ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education side -->
+                    <div id="education" class="education-wrap">
+                        <h2 class="section-title">Education <span>Journey</span></h2>
+                        <div class="timeline">
+                            <div class="timeline-item glass-card highlight-edu">
+                                <h3>B.Tech Computer Science Engineering</h3>
+                                <h4>Lovely Professional University, Punjab</h4>
+                                <p class="edu-date">August 2023 – Present</p>
+                                <p class="edu-score">CGPA: 8.5</p>
+                            </div>
+                            <div class="timeline-item glass-card">
+                                <h3>Class XII (Intermediate)</h3>
+                                <h4>Emmanuel Mission Sr Sec School, Jaipur</h4>
+                                <p class="edu-date">April 2021 – March 2022</p>
+                                <p class="edu-score">Score: 75%</p>
+                            </div>
+                            <div class="timeline-item glass-card">
+                                <h3>Class X (Matriculation)</h3>
+                                <h4>Emmanuel Mission Sr Sec School, Jaipur</h4>
+                                <p class="edu-date">April 2019 – March 2020</p>
+                                <p class="edu-score">Score: 90%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact fade-in-section section-padding">
+            <div class="container">
+                <div class="contact-box glass-card">
+                    <h2 class="section-title">Let's <span>Connect</span></h2>
+                    <p class="contact-text">Currently open to new opportunities, collaborations, and conversations about ML and Full-Stack development.</p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:manavss004@gmail.com" class="contact-item">
+                            <span class="c-icon">📧</span>
+                            <span class="c-text">manavss004@gmail.com</span>
+                        </a>
+                        <a href="tel:+916377543426" class="contact-item">
+                            <span class="c-icon">📱</span>
+                            <span class="c-text">+91-6377543426</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/manavsingh004/" target="_blank" class="contact-item">
+                            <span class="c-icon">💼</span>
+                            <span class="c-text">LinkedIn Profile</span>
+                        </a>
+                        <a href="https://github.com/Manav-Shekhawat" target="_blank" class="contact-item">
+                            <span class="c-icon">💻</span>
+                            <span class="c-text">GitHub Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Manav Singh Shekhawat. Built with creativity & code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
