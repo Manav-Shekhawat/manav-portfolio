@@ -144,6 +144,26 @@ a {
     width: 100%;
 }
 
+.nav-resume-btn {
+    border: 1px solid var(--accent-purple);
+    padding: 6px 14px;
+    border-radius: 6px;
+    color: var(--accent-blue) !important;
+    font-weight: 600 !important;
+    transition: var(--transition-fast);
+}
+
+.nav-resume-btn::after {
+    display: none !important;
+}
+
+.nav-resume-btn:hover {
+    background: rgba(124, 58, 237, 0.15);
+    box-shadow: 0 0 15px var(--glow-purple);
+    border-color: var(--accent-blue);
+    transform: translateY(-2px);
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
